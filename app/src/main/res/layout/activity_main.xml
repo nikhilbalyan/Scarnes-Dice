@@ -13,7 +13,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="your score : 0 and computer score : 0"
+        android:text="@string/your_score_computer_score"
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
@@ -22,6 +22,7 @@
     <ImageView
         android:src="@drawable/dice1"
         android:layout_width="wrap_content"
+        android:contentDescription="@string/dice"
         android:layout_height="wrap_content"
         android:id="@+id/imageView"
         android:layout_below="@+id/textView"
@@ -32,7 +33,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ROLL"
+        android:text="@string/roll"
         android:id="@+id/button"
         android:layout_alignBottom="@+id/button3"
         android:layout_toLeftOf="@+id/button2"
@@ -42,7 +43,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="HOLD"
+        android:text="@string/hold"
         android:id="@+id/button2"
         android:layout_alignBottom="@+id/button"
         android:layout_centerHorizontal="true"
@@ -51,7 +52,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="RESET"
+        android:text="@string/reset"
         android:id="@+id/button3"
         android:layout_below="@+id/imageView"
         android:layout_toRightOf="@+id/button2"
